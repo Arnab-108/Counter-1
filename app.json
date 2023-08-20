@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "Counter",
+    "slug": "Counter",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e083dc77-c5c7-4521-a7fa-2cb76d0c4a37"
+      }
+    },
+    "owner": "arnab205",
+    "android": {
+      "package": "com.arnab205.Counter"
+    },
+    "ios": {
+      "bundleIdentifier": "com.arnab205.Counter"
+    }
+  }
+}
